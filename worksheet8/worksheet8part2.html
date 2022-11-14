@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <button type="button" onclick="confirm1()">Click me</button>
+
+        <script>
+            function confirm1() {
+            var result = confirm("Are you sure you want to proceed?");
+            if (result == false) {
+                event.preventDefault();
+            }
+            }
+        </script>
+
+    </body>
